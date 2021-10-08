@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obrolan Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.2.2/firebase-app.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <video class="background-video" autoplay loop muted poster="Sci Fi - 60718.mp4">
+        <source src="Sci Fi - 60718.mp4">
+      </video>
+      <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger, class="spcl"">Logout</button>
+      <center>
+		<h1 class="header">	
+			Obrolan
+			<sup>
+				<img class="logo" src="Pink Mic Typography Recording Studio Hiphop Music Logo.png">
+			</sup>
+		</h1>
+        <div class="backgr">
+            <h4 class="spcl"> Your room is:  </h4> <h4 class="spcl" id="ihname"></h4>
+        </div>
+        </center>
+
+        <center>
+            <div class="input_div_message_page">
+                <span>
+                <label>Send:</label>
+                <input type="text" id="enteredText" placeholder="Type your message here" class="form-control">
+            </span>
+            <span>
+                 <button class="btn btn-success" onclick="send()">Click!</button>
+                </span>
+            </div>
+        </center>
+        </div>
+        <script src="kwitter_page.js"></script>
+        </body>
+        </html>
+        

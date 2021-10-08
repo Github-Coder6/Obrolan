@@ -1,0 +1,138 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+
+.background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+.header
+{
+	color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 65px;
+    letter-spacing: 0.1px;
+    margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.918);
+    
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+.texaxt{
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+.buttonon{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+.backgr{
+    background-color: rgba(255, 255, 255, 0.76);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 75px;
+}
+.legt{
+    width: 750px;
+    border: none;
+    border-radius: 75px;
+}
+.spcl{
+    font-family: 'Nanum Myeongjo', serif;
+}
+.wow{
+    background-color: rgba(114, 221, 247, 0.705);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 75px;
+    color: white;
+}
